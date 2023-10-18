@@ -1,0 +1,93 @@
+[
+    {
+        "id": 32,
+        "enName": "kobukata",
+        "jpName": "小深田大翔",
+        "lyric": "歓喜のスタンドへ 拳突き上げ\n我らとともに行くぞ　勝利の道へ",
+        "isActive": true
+    },
+    {
+        "id": 33,
+        "enName": "oota",
+        "jpName": "太田光",
+        "lyric": "果てなく続く 光の道\n燃えさかる闘志 今ぶつけろ",
+        "isActive": true
+    },
+    {
+        "id": 34,
+        "enName": "asamura",
+        "jpName": "浅村栄斗",
+        "lyric": "燃え上がれ ここで燃え上がれ\n浅村打て 浅村打て 叩き込め",
+        "isActive": true
+    },
+    {
+        "id": 35,
+        "enName": "abe",
+        "jpName": "阿部寿樹",
+        "lyric": "みちのくへと 光をもたらす\n希望の道を行け 阿部寿樹",
+        "isActive": true
+    },
+    {
+        "id": 36,
+        "enName": "tatsumi",
+        "jpName": "辰己涼介",
+        "lyric": "放つ光は 頂へ続く\n限りない夢を 叶えるんだ 辰己涼介",
+        "isActive": true
+    },
+    {
+        "id": 37,
+        "enName": "okajima",
+        "jpName": "岡島豪郎",
+        "lyric": "チャンスを掴め目指せ勝利 岡島豪郎\n俊足 巧打 守り抜け 魂込めて\nオオオ.. オイ！",
+        "isActive": true
+    },
+    {
+        "id": 38,
+        "enName": "sumitani",
+        "jpName": "炭谷銀仁朗",
+        "lyric": "熱い心が 勝利への希望\n信じる道 迷わず行け 炭谷銀仁朗",
+        "isActive": false
+    },
+    {
+        "id": 39,
+        "enName": "yamasaki",
+        "jpName": "山﨑剛",
+        "lyric": "ラララララー フィールドを\n縦横無尽に 駆け回れ\n勝利へ導く 強い一撃\nさあ行こう 山﨑剛",
+        "isActive": true
+    },
+    {
+        "id": 40,
+        "enName": "shimauti",
+        "jpName": "島内宏明",
+        "lyric": "ここで島内 勝利の一打 オオオ..",
+        "isActive": true
+    },
+    {
+        "id": 41,
+        "enName": "ogo",
+        "jpName": "小郷裕哉",
+        "lyric": "栄光つかむために\n目の前の敵に立ち向かえ\n勝利決めるスイングで 小郷裕哉\n共に行こう (おごう！)",
+        "isActive": true
+    },
+    {
+        "id": 42,
+        "enName": "hanyo",
+        "jpName": "汎用テーマ",
+        "lyric": "ここで一発 かっ飛ばせ 打てよ◯◯",
+        "isActive": true
+    },
+    {
+        "id": 43,
+        "enName": "shokai",
+        "jpName": "先頭打者\nテーマ",
+        "lyric": "さあ勝とうぜ 突撃イーグルス\nオオオ.. (◯◯！)\n初回から打ちまくろうぜ オオオ..",
+        "isActive": true
+    },
+    {
+        "id": 44,
+        "enName": "wasshoi",
+        "jpName": "レッツゴー\nわっしょい",
+        "lyric": "レッツゴー レッツゴー ◯◯\nレッツゴー レッツゴー ◯◯\nそれそれそれそれ わっしょい わっしょい\nオオオ..",
+        "isActive": true
+    },
+]

@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF63F3C62ADBD4D100DB5224 /* MarinesMusicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF63F3C52ADBD4D100DB5224 /* MarinesMusicApp.swift */; };
+		FF63F3C82ADBD4D100DB5224 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF63F3C72ADBD4D100DB5224 /* ContentView.swift */; };
+		FF63F3CA2ADBD4D400DB5224 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF63F3C92ADBD4D400DB5224 /* Assets.xcassets */; };
+		FF63F3CD2ADBD4D400DB5224 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF63F3CC2ADBD4D400DB5224 /* Preview Assets.xcassets */; };
+		FF63F3D72ADBD7EB00DB5224 /* PlayButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF63F3D62ADBD7EB00DB5224 /* PlayButtonStyle.swift */; };
+		FF63F3D92ADBDBAB00DB5224 /* LyricView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF63F3D82ADBDBAB00DB5224 /* LyricView.swift */; };
+		FF63F3DD2ADBEF0E00DB5224 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF63F3DC2ADBEF0E00DB5224 /* Functions.swift */; };
+		FF63F3E22ADC5D3C00DB5224 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF63F3E12ADC5D3C00DB5224 /* SettingsView.swift */; };
+		FF63F3E42ADC63A700DB5224 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF63F3E32ADC63A700DB5224 /* Player.swift */; };
+		FF63F3E62ADC675700DB5224 /* FightSongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF63F3E52ADC675700DB5224 /* FightSongView.swift */; };
+		FF63F3E92ADCF35300DB5224 /* Eagles.json in Resources */ = {isa = PBXBuildFile; fileRef = FF63F3E82ADCF35300DB5224 /* Eagles.json */; };
+		FF63F3EB2ADED11200DB5224 /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF63F3EA2ADED11200DB5224 /* Star.swift */; };
+		FF63F3ED2ADEE8E500DB5224 /* AVPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF63F3EC2ADEE8E500DB5224 /* AVPlayerController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF63F3C22ADBD4D100DB5224 /* MarinesMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarinesMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF63F3C52ADBD4D100DB5224 /* MarinesMusicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarinesMusicApp.swift; sourceTree = "<group>"; };
+		FF63F3C72ADBD4D100DB5224 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FF63F3C92ADBD4D400DB5224 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF63F3CC2ADBD4D400DB5224 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FF63F3D62ADBD7EB00DB5224 /* PlayButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayButtonStyle.swift; sourceTree = "<group>"; };
+		FF63F3D82ADBDBAB00DB5224 /* LyricView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricView.swift; sourceTree = "<group>"; };
+		FF63F3DC2ADBEF0E00DB5224 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		FF63F3DE2ADC575E00DB5224 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FF63F3E12ADC5D3C00DB5224 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		FF63F3E32ADC63A700DB5224 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		FF63F3E52ADC675700DB5224 /* FightSongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FightSongView.swift; sourceTree = "<group>"; };
+		FF63F3E82ADCF35300DB5224 /* Eagles.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Eagles.json; sourceTree = "<group>"; };
+		FF63F3EA2ADED11200DB5224 /* Star.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
+		FF63F3EC2ADEE8E500DB5224 /* AVPlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF63F3BF2ADBD4D100DB5224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF63F3B92ADBD4D100DB5224 = {
+			isa = PBXGroup;
+			children = (
+				FF63F3C42ADBD4D100DB5224 /* MarinesMusic */,
+				FF63F3C32ADBD4D100DB5224 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF63F3C32ADBD4D100DB5224 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF63F3C22ADBD4D100DB5224 /* MarinesMusic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF63F3C42ADBD4D100DB5224 /* MarinesMusic */ = {
+			isa = PBXGroup;
+			children = (
+				FF63F3C52ADBD4D100DB5224 /* MarinesMusicApp.swift */,
+				FF63F3E72ADC696F00DB5224 /* Views */,
+				FF63F3C92ADBD4D400DB5224 /* Assets.xcassets */,
+				FF63F3DE2ADC575E00DB5224 /* Info.plist */,
+				FF63F3CB2ADBD4D400DB5224 /* Preview Content */,
+				FF63F3D62ADBD7EB00DB5224 /* PlayButtonStyle.swift */,
+				FF63F3DC2ADBEF0E00DB5224 /* Functions.swift */,
+				FF63F3E82ADCF35300DB5224 /* Eagles.json */,
+				FF63F3E32ADC63A700DB5224 /* Player.swift */,
+				FF63F3EA2ADED11200DB5224 /* Star.swift */,
+				FF63F3EC2ADEE8E500DB5224 /* AVPlayerController.swift */,
+			);
+			path = MarinesMusic;
+			sourceTree = "<group>";
+		};
+		FF63F3CB2ADBD4D400DB5224 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FF63F3CC2ADBD4D400DB5224 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FF63F3E72ADC696F00DB5224 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FF63F3C72ADBD4D100DB5224 /* ContentView.swift */,
+				FF63F3E52ADC675700DB5224 /* FightSongView.swift */,
+				FF63F3D82ADBDBAB00DB5224 /* LyricView.swift */,
+				FF63F3E12ADC5D3C00DB5224 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF63F3C12ADBD4D100DB5224 /* MarinesMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF63F3D02ADBD4D400DB5224 /* Build configuration list for PBXNativeTarget "MarinesMusic" */;
+			buildPhases = (
+				FF63F3BE2ADBD4D100DB5224 /* Sources */,
+				FF63F3BF2ADBD4D100DB5224 /* Frameworks */,
+				FF63F3C02ADBD4D100DB5224 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarinesMusic;
+			productName = MarinesMusic;
+			productReference = FF63F3C22ADBD4D100DB5224 /* MarinesMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF63F3BA2ADBD4D100DB5224 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FF63F3C12ADBD4D100DB5224 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = FF63F3BD2ADBD4D100DB5224 /* Build configuration list for PBXProject "MarinesMusic" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF63F3B92ADBD4D100DB5224;
+			productRefGroup = FF63F3C32ADBD4D100DB5224 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF63F3C12ADBD4D100DB5224 /* MarinesMusic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF63F3C02ADBD4D100DB5224 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF63F3E92ADCF35300DB5224 /* Eagles.json in Resources */,
+				FF63F3CD2ADBD4D400DB5224 /* Preview Assets.xcassets in Resources */,
+				FF63F3CA2ADBD4D400DB5224 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF63F3BE2ADBD4D100DB5224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF63F3EB2ADED11200DB5224 /* Star.swift in Sources */,
+				FF63F3D92ADBDBAB00DB5224 /* LyricView.swift in Sources */,
+				FF63F3D72ADBD7EB00DB5224 /* PlayButtonStyle.swift in Sources */,
+				FF63F3E62ADC675700DB5224 /* FightSongView.swift in Sources */,
+				FF63F3C82ADBD4D100DB5224 /* ContentView.swift in Sources */,
+				FF63F3E22ADC5D3C00DB5224 /* SettingsView.swift in Sources */,
+				FF63F3E42ADC63A700DB5224 /* Player.swift in Sources */,
+				FF63F3DD2ADBEF0E00DB5224 /* Functions.swift in Sources */,
+				FF63F3C62ADBD4D100DB5224 /* MarinesMusicApp.swift in Sources */,
+				FF63F3ED2ADEE8E500DB5224 /* AVPlayerController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FF63F3CE2ADBD4D400DB5224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF63F3CF2ADBD4D400DB5224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF63F3D12ADBD4D400DB5224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MarinesMusic/Preview Content\"";
+				DEVELOPMENT_TEAM = B74ARS8PR4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarinesMusic/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = imamura.MarinesMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF63F3D22ADBD4D400DB5224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MarinesMusic/Preview Content\"";
+				DEVELOPMENT_TEAM = B74ARS8PR4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarinesMusic/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = imamura.MarinesMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF63F3BD2ADBD4D100DB5224 /* Build configuration list for PBXProject "MarinesMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF63F3CE2ADBD4D400DB5224 /* Debug */,
+				FF63F3CF2ADBD4D400DB5224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF63F3D02ADBD4D400DB5224 /* Build configuration list for PBXNativeTarget "MarinesMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF63F3D12ADBD4D400DB5224 /* Debug */,
+				FF63F3D22ADBD4D400DB5224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF63F3BA2ADBD4D100DB5224 /* Project object */;
+}
