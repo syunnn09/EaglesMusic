@@ -134,7 +134,7 @@ struct FightSongView: View {
                 )
                 .zIndex(3)
                 .offset(y: isShowLyric ? 0 : geometry.size.height * 2)
-                
+
                 if isShowLyric {
                     Button {
                         stopMusic(isStop: getPref(forKey: .isModalClickToStop))

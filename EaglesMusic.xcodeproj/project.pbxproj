@@ -23,7 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FF63F3C22ADBD4D100DB5224 /* MarinesMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarinesMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF63F3C22ADBD4D100DB5224 /* EaglesMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EaglesMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF63F3C52ADBD4D100DB5224 /* MarinesMusicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarinesMusicApp.swift; sourceTree = "<group>"; };
 		FF63F3C72ADBD4D100DB5224 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FF63F3C92ADBD4D400DB5224 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		FF63F3C32ADBD4D100DB5224 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FF63F3C22ADBD4D100DB5224 /* MarinesMusic.app */,
+				FF63F3C22ADBD4D100DB5224 /* EaglesMusic.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,9 +107,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FF63F3C12ADBD4D100DB5224 /* MarinesMusic */ = {
+		FF63F3C12ADBD4D100DB5224 /* EaglesMusic */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FF63F3D02ADBD4D400DB5224 /* Build configuration list for PBXNativeTarget "MarinesMusic" */;
+			buildConfigurationList = FF63F3D02ADBD4D400DB5224 /* Build configuration list for PBXNativeTarget "EaglesMusic" */;
 			buildPhases = (
 				FF63F3BE2ADBD4D100DB5224 /* Sources */,
 				FF63F3BF2ADBD4D100DB5224 /* Frameworks */,
@@ -119,9 +119,9 @@
 			);
 			dependencies = (
 			);
-			name = MarinesMusic;
+			name = EaglesMusic;
 			productName = MarinesMusic;
-			productReference = FF63F3C22ADBD4D100DB5224 /* MarinesMusic.app */;
+			productReference = FF63F3C22ADBD4D100DB5224 /* EaglesMusic.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -139,7 +139,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FF63F3BD2ADBD4D100DB5224 /* Build configuration list for PBXProject "MarinesMusic" */;
+			buildConfigurationList = FF63F3BD2ADBD4D100DB5224 /* Build configuration list for PBXProject "EaglesMusic" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -152,7 +152,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FF63F3C12ADBD4D100DB5224 /* MarinesMusic */,
+				FF63F3C12ADBD4D100DB5224 /* EaglesMusic */,
 			);
 		};
 /* End PBXProject section */
@@ -375,7 +375,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FF63F3BD2ADBD4D100DB5224 /* Build configuration list for PBXProject "MarinesMusic" */ = {
+		FF63F3BD2ADBD4D100DB5224 /* Build configuration list for PBXProject "EaglesMusic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FF63F3CE2ADBD4D400DB5224 /* Debug */,
@@ -384,7 +384,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FF63F3D02ADBD4D400DB5224 /* Build configuration list for PBXNativeTarget "MarinesMusic" */ = {
+		FF63F3D02ADBD4D400DB5224 /* Build configuration list for PBXNativeTarget "EaglesMusic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FF63F3D12ADBD4D400DB5224 /* Debug */,
